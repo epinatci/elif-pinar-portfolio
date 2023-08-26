@@ -6,68 +6,92 @@ const Projects = () => {
   return (
     <>
 
-      <div>
+      <div id="projects" className="projects">
+        <div className="text-wrapper-2">Projects</div>
+        <div className="projects-list">
 
-        <h2>Projects</h2>
+          <div className="p">
+            <img className="rectangle" alt="Rectangle" src="Rectangle 41.png" />
+            <div className="text-wrapper">Workintech</div>
+            <p className="div">
+              A simple, customizable, minimal setup cookiebr <br/>
+               plugin that allows your users to select which <br/>
+               cookies to accept or decline. This was <br/>
+               created with vanilla JS, SCSS and Parcel <br/>
+               Bundler and is available as a NPM package <br/>
+                and the git repository makes any type of <br/>
+             customization to code and themes possible.
+            </p>
+            <div className="tech-stack">
 
-        <div>
-          <div>
-
-            {/* <img></img> */}
-
-            <h3>proje1</h3>
-            <h6>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</h6>
-            <p>react</p>
-            <p>redux</p>
-            <p>axios</p>
-
-            <div>
-              {/* <a>Github</a>
-              <a>View Site</a> */}
+                <div className="pill">react</div>
+        
+                <div className="pill">redux</div>
+           
+                <div className="pill">axios</div>
+           
             </div>
-
-
+            <div className="details">
+              <a href="#"className="text-wrapper-3">Github</a>
+              <a href="#"className="text-wrapper-3">View Site</a>
+            </div>
           </div>
+          <div className="p">
+            <img className="img" alt="Rectangle" src="Rectangle 41 (1).png" />
+            <div className="text-wrapper">Random Jokes</div>
+            <p className="div">
+            A simple, customizable, minimal setup cookiebr <br/>
+               plugin that allows your users to select which <br/>
+               cookies to accept or decline. This was <br/>
+               created with vanilla JS, SCSS and Parcel <br/>
+               Bundler and is available as a NPM package <br/>
+                and the git repository makes any type of <br/>
+             customization to code and themes possible.
+            </p>
+            <div className="tech-stack">
 
-          <div>
-{/* 
-            <img></img> */}
-
-            <h3>proje 2</h3>
-            <h6>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</h6>
-            <p>react</p>
-            <p>redux</p>
-            <p>axios</p>
-
-            <div>
-              {/* <a>Github</a>
-              <a>View Site</a> */}
+                <div className="pill">react</div>
+          
+                <div className="pill">redux</div>
+          
+                <div className="pill">axios</div>
+         
             </div>
-
-
+            <div className="details">
+              <a href="#" className="text-wrapper-3">Github</a>
+              <a href="#" className="text-wrapper-3">View Site</a>
+            </div>
           </div>
+          <div className="p">
+            <img className="img" alt="Rectangle" src="Rectangle 41 (2).png" />
+            <div className="text-wrapper">Journey</div>
+            <p className="div">
+            A simple, customizable, minimal setup cookiebr <br/>
+               plugin that allows your users to select which <br/>
+               cookies to accept or decline. This was <br/>
+               created with vanilla JS, SCSS and Parcel <br/>
+               Bundler and is available as a NPM package <br/>
+                and the git repository makes any type of <br/>
+             customization to code and themes possible.
+            </p>
+            <div className="tech-stack">
 
-          <div>
-{/* 
-            <img></img> */}
-
-            <h3>proje3</h3>
-            <h6>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</h6>
-            <p>react</p>
-            <p>redux</p>
-            <p>axios</p>
-
-            <div>
-              {/* <a>Github</a>
-              <a>View Site</a> */}
+                <div className="pill">react</div>
+            
+                <div className="pill">redux</div>
+         
+                <div className="pill">axios</div>
+           
             </div>
-
-
+            <div className="details">
+              <a href='#' className="text-wrapper-3">Github</a>
+              <a href='#' className="text-wrapper-3">View Site</a>
+            </div>
           </div>
         </div>
 
-
       </div>
+
 
     </>
   );

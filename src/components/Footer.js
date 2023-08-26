@@ -2,31 +2,35 @@ import React from 'react';
 
 const Footer = () => {
 
-
-
   return (
-    <>
-    
-    <div>
+ 
+        <footer className="footer">
 
-    <h2>Let’s work together on <br/> your next product.</h2>
+          <div className="overlap-group">
 
-      <div>
+          <p className="p">Let’s work together on <br/> your next product.</p>
 
-        {/* <NavLink>👉epakcin@gmail.com</NavLink> */}
+            <div className="links">
 
-        <div>
+              <div className="email">
 
-          {/* <a>Personal Blog</a>
-          <a>Github</a>
-          <a>Linkedin</a> */}
-          
-        </div>
+              <a href="mailto:epakcin@gmail.com" className="text-wrapper"><span>👉</span>epakcin@gmail.com </a>
+              </div>
 
-      </div>
-    </div>
-    
-    </>
+              <div className="websites">
+
+                <div className="div">Personal Blog</div>
+                <a href="https://github.com/epinatci" className="text-wrapper-2" target="_newtab">Github</a>
+                <a href="https://www.linkedin.com/in/elif-p%C4%B1nar-ak%C3%A7in-4a4a3ba4/" className="text-wrapper-3"  target="_newtab">Linkedin</a>
+
+              </div>
+
+            </div>
+         
+          </div>
+
+        </footer>
+  
   );
 };
 

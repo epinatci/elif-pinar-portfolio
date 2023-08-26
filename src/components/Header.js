@@ -1,18 +1,11 @@
 import React from 'react';
 
-
 const Header = () => {
 
   return (
     <>
 
-      <div className="header" >
-        <button>dark mode</button>
-        <button>türkceye gec</button>
-      </div>
-
       <div className='headBtn'>
-
         <div>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="64" height="62" viewBox="0 0 64 62" fill="none">
@@ -22,15 +15,16 @@ const Header = () => {
 
         </div>
 
+
         <div>
 
-        <button>Skills</button>
-        <button>Projects</button>
-        <button>Hire Me</button>
-        
+          <div className='btnFlex' >
+            <a href="#skillbtn" className="rotBtn"> Skills    </a>
+            <a href="#projects" className="rotBtn">Projects </a>
+            <a href="mailto:epakcin@gmail.com" className="hireMe" >  Hire Me </a>
+          </div>
+
         </div>
-
-
       </div>
 
 
